@@ -1,5 +1,6 @@
 html, body {
-    background-image: linear-gradient(to right, #071304, #0f200e, #102e15, #0e3d1b, #054c23);
+    background-image: linear-gradient(to top, #071304, #0f200e, #102e15, #0e3d1b, #054c23);
+    height: 100%;
 }
 .navbar {
    
@@ -30,7 +31,6 @@ html, body {
     font-size: 2rem;
     display: flex;
     align-items: center;
-    background-image: url(/src/Logo.svg);
     width: 4rem;
     height: 4rem;
     

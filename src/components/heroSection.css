@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+  
+  .herro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 6em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, rgb(34, 175, 71), #fff, rgb(81, 165, 68));
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 9s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(40, 127, 69, 0);
+    font-family: 'Roboto Slab', serif;
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+  .btnContainer {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+  
+.btnHire {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+     -khtml-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+		-webkit-tap-highlight-color: transparent;
+}
+
+.btnHire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin: auto;
+	width: 150px;
+	height: 50px;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+	background: rgb(212, 242, 212);
+	box-shadow: 5px 5px 0 rgb(8, 75, 8),
+		-5px -5px 0 rgb(8, 75, 8),
+		-5px 5px 0 rgb(8, 75, 8),
+		5px -5px 0 rgb(8, 75, 8);
+	transition: 500ms ease-in-out;
+}
+
+.btnHire:hover {
+	box-shadow: 20px 5px 0 rgb(8, 75, 8), -20px -5px 0 rgb(8, 75, 8);
+}
+
+.btnHire:focus {
+	outline: none;
+}
+
